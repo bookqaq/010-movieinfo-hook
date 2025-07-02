@@ -10,7 +10,7 @@ This is preferred to be used if you are an operator of a cabient / "pc that run 
 
 ### Why?
 
-There is a missing handle in video and upload procedure for 010-record-api, which is `IIDX<version>music.movieinfo`. This request data can't be handled by it unless some xrpc server send it actively. 
+There is a missing handle in video upload procedure for 010-record-api, which is `IIDX<version>music.movieinfo`. This request data can't be handled by it unless some xrpc server send it actively. 
 
 ### Compatibility
 
