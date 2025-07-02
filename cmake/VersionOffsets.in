@@ -1,0 +1,14 @@
+
+    /* LDJ-@DLL_TYPE@-@DLL_VERSION@ */
+    {
+		.dll_version       = "@DLL_VERSION@",
+		.dll_type          = "@DLL_TYPE@",
+
+	    .dll_code_size     = @DLL_CODE_SIZE@,
+	    .dll_entrypoint    = @DLL_ENTRYPOINT@,
+	    .dll_image_size    = @DLL_IMAGE_SIZE@,
+
+	    .hook_iidxmusic_movieinfo_request = @OFFSET_HOOK_IIDXMUSIC_MOVIEINFO_REQUEST@,
+	    .hook_movie_upload_url_before     = @OFFSET_HOOK_MOVIE_UPLOAD_URL_BEFORE@,
+	    .hook_movie_upload_url_after      = @OFFSET_HOOK_MOVIE_UPLOAD_URL_AFTER@,
+    },
